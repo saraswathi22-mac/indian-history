@@ -1,8 +1,12 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 
 const Home = () => {
+  const navigate = useNavigate();
   return (
-    <div>Welcome to Indian History</div>
+    <>
+      <button className="btn" onClick={() => navigate('/ancient_history')}>Ancient History</button>
+    </>
   )
 }
 
