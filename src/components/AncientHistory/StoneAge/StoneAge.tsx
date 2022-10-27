@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const StoneAge = () => {
   return (
     <div>
-        <div className="ancient-title">Stone Age</div>
+      <div className="ancient-title">Stone Age</div>
       <div className="ancient-container">
         The people of this age used to fulfil all their needs only with the help
         of stone tools, hence this era is called Stone age. On the basis of all
@@ -66,7 +66,7 @@ const StoneAge = () => {
         Ganges,Son, Gandak and Ghagara rivers
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default StoneAge
+export default StoneAge;
