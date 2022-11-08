@@ -1,11 +1,23 @@
-import React from 'react'
-import "./SourcesOfAncientHistory.css"
+import React from "react";
+import "./SourcesOfAncientHistory.css";
 
 const SourcesOfAncientHistory = () => {
   return (
-    <div>
-        <div className="ancient-title">Sources of Ancient India</div>
-      <div className="ancient-container">
+    <div className="container">
+      <div className="ancient-title">Sources of Ancient India</div>
+      <div className="ancient-content">
+        <label htmlFor="" className="topic">
+          Scriptures
+        </label>
+        <label htmlFor="" className="topic">
+        Historical Texts
+        </label>
+        <label htmlFor="" className="topic">
+        Details of foreigners
+        </label>
+        <label htmlFor="" className="topic">
+        Archaeological evidence
+        </label>
         <h2>1. Scriptures</h2>
         <h2>2. Historical Texts</h2>
         <h2>3. Details of foreigners</h2>
@@ -17,72 +29,52 @@ const SourcesOfAncientHistory = () => {
         </h4>
         <h4>4 vedas</h4>
         <h5>1. Rigveda: Ayurveda</h5>
-        
-          This is the most ancient Veda. It has 10 mandals, 1028 suktas, 10462
-          verses. The sage who recites the rithas of this veda is called Hotru.
-          The 3rd mandala of this veda composed by Vishvamitra contains the
-          famous Gayatri mantra dedicated to sun god Savitri. Its 9th manadala
-          mentions the deity SOm. The source of imagination of the Chatushvarnya
-          society is the Purushasukta described in the 10th mandal. It has
-          composed of 250 hymns for Indra and 200 for Agni.
-        
+        This is the most ancient Veda. It has 10 mandals, 1028 suktas, 10462
+        verses. The sage who recites the rithas of this veda is called Hotru.
+        The 3rd mandala of this veda composed by Vishvamitra contains the famous
+        Gayatri mantra dedicated to sun god Savitri. Its 9th manadala mentions
+        the deity SOm. The source of imagination of the Chatushvarnya society is
+        the Purushasukta described in the 10th mandal. It has composed of 250
+        hymns for Indra and 200 for Agni.
         <h5>2. YajurVeda: dhanur </h5>
-        
-          The compilation of mantras for recitation and rules for compliance at
-          the time of sacrifice is called Yajurveda. The reader of this veda is
-          called Adhvaryu. This veda is both in prose and verse.{" "}
-        
+        The compilation of mantras for recitation and rules for compliance at
+        the time of sacrifice is called Yajurveda. The reader of this veda is
+        called Adhvaryu. This veda is both in prose and verse.{" "}
         <h5>Samveda: gandarv veda</h5>
-        
-          The collection of verses that can be sung is called Samveda. its
-          reader is called Udratri. It is called the father of Indian music
-        
+        The collection of verses that can be sung is called Samveda. its reader
+        is called Udratri. It is called the father of Indian music
         <h5>Atharveda/Bushan veda: shilp veda</h5>
-        
-          This veda was composed by the Atharva sage. In this veda, there is
-          description of mantra related to various topicslike disease,
-          prevention, tantra-mantra, witchcraft, curse, vashikaran, blessing,
-          praise, medicine, marriage, love, rajkarma etc. It describes the
-          thought, beliefs, superstitions etc of ordinary human beings. In this
-          the assembly and the committee have been called two daughters of
-          prajapati. Sub ved of this is Shilp veda
-        
-
+        This veda was composed by the Atharva sage. In this veda, there is
+        description of mantra related to various topicslike disease, prevention,
+        tantra-mantra, witchcraft, curse, vashikaran, blessing, praise,
+        medicine, marriage, love, rajkarma etc. It describes the thought,
+        beliefs, superstitions etc of ordinary human beings. In this the
+        assembly and the committee have been called two daughters of prajapati.
+        Sub ved of this is Shilp veda
         <h4>Puranas</h4>
-        
-          It provides the best serialized descriptions of Indian historical
-          stories. The auther of this is considered Lomharsha or his son
-          Ugarshrawa. Their no is 18 out of which only 5 puranas: Matsya, Vayu,
-          brahmin, bhagavata puranas have genealogy of kings. Among these,
-          Matsya puran is the most ancient and authentic. Vishnu puran belongs
-          to maurya dynasty. Matsy belongs to Andhra Satavahana dynasty. Vayu to
-          gupta dynasty
-        
-
+        It provides the best serialized descriptions of Indian historical
+        stories. The auther of this is considered Lomharsha or his son
+        Ugarshrawa. Their no is 18 out of which only 5 puranas: Matsya, Vayu,
+        brahmin, bhagavata puranas have genealogy of kings. Among these, Matsya
+        puran is the most ancient and authentic. Vishnu puran belongs to maurya
+        dynasty. Matsy belongs to Andhra Satavahana dynasty. Vayu to gupta
+        dynasty
         <h4>Smritigranth</h4>
-        
-          1. Manusmriti: Most ancient and authentic manusmriti is considered in
-          the epics. This is the standard text of sunga period. 2. Narada
-          smriti: Provides info abt Gupta era.
-        
-
+        1. Manusmriti: Most ancient and authentic manusmriti is considered in
+        the epics. This is the standard text of sunga period. 2. Narada smriti:
+        Provides info abt Gupta era.
         <h5>Epics</h5>
-        
-          1. Ramayan: Creater is valmiki rishi. 1&2nd century of creation time.
-          There are 12000 verses initially in Ramayan and abt 24000 at present.
-          Valimik ramayan is divided into 7 sections-balkand, ayodhya kand,
-          aranyakand, kishkindhanda, sundarakanda, yudhkaand, uttarkand. The
-          social, political and religious location of the tine is revealed in
-          Ramayan. The texts based on Ramkatha were first translated out of
-          India into China. Bhushundi ramayan is known as adi ramayan
-      
-          2. Mahabharata: createe maharshi ved vyas. Initially it was 24000
-          verses. currently there are abt 1L verses. Mahabharat is also called
-          as Jai samhita. Maha is divided into 18 festivals. The social,
-          political and religious location of the tine is revealed in
-          Mahabharata
-       
-
+        1. Ramayan: Creater is valmiki rishi. 1&2nd century of creation time.
+        There are 12000 verses initially in Ramayan and abt 24000 at present.
+        Valimik ramayan is divided into 7 sections-balkand, ayodhya kand,
+        aranyakand, kishkindhanda, sundarakanda, yudhkaand, uttarkand. The
+        social, political and religious location of the tine is revealed in
+        Ramayan. The texts based on Ramkatha were first translated out of India
+        into China. Bhushundi ramayan is known as adi ramayan 2. Mahabharata:
+        createe maharshi ved vyas. Initially it was 24000 verses. currently
+        there are abt 1L verses. Mahabharat is also called as Jai samhita. Maha
+        is divided into 18 festivals. The social, political and religious
+        location of the tine is revealed in Mahabharata
         <h4>
           Bhuddism: The tripatak , compiled in the musicals held after the
           Parinirvana of Mahatma budh, is probably the oldest religious book in
@@ -125,7 +117,6 @@ const SourcesOfAncientHistory = () => {
           Patanjali: was the priest of Pushyamitra Sunga. The history of the
           Sungas is revealed by his greatness.
         </h4>
-
         <h4>Foreigners</h4>
         <h4>
           1. Herodotus: It is called the father of history. In the book,
@@ -177,10 +168,9 @@ const SourcesOfAncientHistory = () => {
           Marcopolo: It came at the end of 3th century on a visit to the Pandya
           country.
         </h4>
+      </div>
     </div>
-    </div>
+  );
+};
 
-  )
-}
-
-export default SourcesOfAncientHistory
+export default SourcesOfAncientHistory;

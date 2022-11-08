@@ -6,6 +6,7 @@ const Home = () => {
   return (
     <>
       <button className="btn" onClick={() => navigate('/ancient_history')}>Ancient History</button>
+      <button className="btn" onClick={() => navigate('/medieval_history')}>Medieval History</button>
     </>
   )
 }

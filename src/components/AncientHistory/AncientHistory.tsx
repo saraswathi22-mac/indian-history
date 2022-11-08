@@ -17,9 +17,9 @@ const AncientHistory = () => {
       </button>
       <button
         className="btn"
-        onClick={() => navigate("/ancient_history/stone_age")}
+        onClick={() => navigate("/ancient_history/indus_valley_civilization")}
       >
-        Stone Age
+        Indus Valley Civilization
       </button>
     </div>
   );
