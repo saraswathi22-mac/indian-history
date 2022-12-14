@@ -1,0 +1,13 @@
+.main_heading {
+  font-size: 4em;
+  position: relative;
+  text-align: center;
+  font-family: fantasy;
+}
+
+.heading {
+  font-size: 3.5em;
+  position: relative;
+  text-align: center;
+  font-family: "MonteCarlo", cursive;
+}

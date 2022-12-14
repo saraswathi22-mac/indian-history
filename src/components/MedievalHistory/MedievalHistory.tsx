@@ -1,11 +1,12 @@
 import React from "react";
 import SourcesOfMedievalHistory from "./SourcesOfMedievalHistory/SourcesOfMedievalHistory";
 import { Button } from "../../common/Button/Button";
+import { MainHeading } from "../../common/Headings/Headings";
 
 const MedievalHistory = () => {
   return (
     <div className="ancient-history">
-      <h1>Medieval History</h1>
+      <MainHeading mainHeading="Medieval History" />
       <SourcesOfMedievalHistory />
       <Button locate="/medieval_history/stone_age" title="Stone Age" />
       <Button

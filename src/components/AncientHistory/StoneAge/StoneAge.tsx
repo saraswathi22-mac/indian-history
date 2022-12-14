@@ -1,9 +1,10 @@
 import React from "react";
+import { Heading } from "../../../common/Headings/Headings";
 
 const StoneAge = () => {
   return (
     <div>
-      <div className="ancient-title">Stone Age</div>
+      <Heading heading="Stone Age" />
       <div className="ancient-container">
         The people of this age used to fulfil all their needs only with the help
         of stone tools, hence this era is called Stone age. On the basis of all

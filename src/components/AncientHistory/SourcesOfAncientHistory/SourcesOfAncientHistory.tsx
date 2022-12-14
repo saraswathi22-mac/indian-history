@@ -1,23 +1,12 @@
 import React from "react";
+import { Heading } from "../../../common/Headings/Headings";
 import "./SourcesOfAncientHistory.css";
 
 const SourcesOfAncientHistory = () => {
   return (
     <div className="container">
-      <div className="ancient-title">Sources of Ancient India</div>
+      <Heading heading="Sources of Ancient India" />
       <div className="ancient-content">
-        <label htmlFor="" className="topic">
-          Scriptures
-        </label>
-        <label htmlFor="" className="topic">
-        Historical Texts
-        </label>
-        <label htmlFor="" className="topic">
-        Details of foreigners
-        </label>
-        <label htmlFor="" className="topic">
-        Archaeological evidence
-        </label>
         <h2>1. Scriptures</h2>
         <h2>2. Historical Texts</h2>
         <h2>3. Details of foreigners</h2>
