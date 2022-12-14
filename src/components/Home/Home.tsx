@@ -1,14 +1,13 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom';
+import React from "react";
+import { Button } from "../../common/Button/Button";
 
 const Home = () => {
-  const navigate = useNavigate();
   return (
     <>
-      <button className="btn" onClick={() => navigate('/ancient_history')}>Ancient History</button>
-      <button className="btn" onClick={() => navigate('/medieval_history')}>Medieval History</button>
+      <Button locate="/ancient_history" title="Ancient History" />
+      <Button locate="/medieval_history" title="Medieval History" />
     </>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
