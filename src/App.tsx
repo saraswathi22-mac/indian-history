@@ -1,6 +1,5 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import "./App.css";
 import AncientHistory from "./components/AncientHistory/AncientHistory";
 import IndusValleyCivilization from "./components/AncientHistory/IndusValleyCivilization/IndusValleyCivilization";
 import SourcesOfAncientHistory from "./components/AncientHistory/SourcesOfAncientHistory/SourcesOfAncientHistory";

@@ -1,9 +1,10 @@
 import React from "react";
+import Container from "../../../common/Container/Container";
 import { Heading } from "../../../common/Headings/Headings";
 
 const StoneAge = () => {
   return (
-    <div>
+    <Container>
       <Heading heading="Stone Age" />
       <div className="ancient-container">
         The people of this age used to fulfil all their needs only with the help
@@ -66,7 +67,7 @@ const StoneAge = () => {
         river bamks. In eastern india, humans lived in the delatas of the
         Ganges,Son, Gandak and Ghagara rivers
       </div>
-    </div>
+    </Container>
   );
 };
 

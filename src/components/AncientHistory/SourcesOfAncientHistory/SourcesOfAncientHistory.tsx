@@ -1,10 +1,11 @@
 import React from "react";
+import Container from "../../../common/Container/Container";
 import { Heading } from "../../../common/Headings/Headings";
 import "./SourcesOfAncientHistory.css";
 
 const SourcesOfAncientHistory = () => {
   return (
-    <div className="container">
+    <Container>
       <Heading heading="Sources of Ancient India" />
       <div className="ancient-content">
         <h2>1. Scriptures</h2>
@@ -158,7 +159,7 @@ const SourcesOfAncientHistory = () => {
           country.
         </h4>
       </div>
-    </div>
+    </Container>
   );
 };
 

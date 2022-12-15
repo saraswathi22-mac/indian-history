@@ -1,12 +1,13 @@
 import React from "react";
+import Container from "../../../common/Container/Container";
 import { Heading } from "../../../common/Headings/Headings";
 import "./IndusValleyCivilization.css";
 
 const IndusValleyCivilization = () => {
   return (
-    <div>
+    <Container>
       <Heading heading="Indus Valley Civilization" />
-    </div>
+    </Container>
   );
 };
 

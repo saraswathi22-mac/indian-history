@@ -1,10 +1,11 @@
 import React from 'react'
+import Container from '../../../common/Container/Container'
 
 const SourcesOfMedievalHistory = () => {
   return (
-    <div>
+    <Container>
         
-    </div>
+    </Container>
   )
 }
 
