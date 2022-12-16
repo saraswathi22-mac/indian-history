@@ -2,7 +2,6 @@ import React from "react";
 import { Button } from "../../common/Button/Button";
 import { MainHeading } from "../../common/Headings/Headings";
 import "./AncientHistory.css";
-import SourcesOfAncientHistory from "./SourcesOfAncientHistory/SourcesOfAncientHistory";
 
 const AncientHistory = () => {
   return (

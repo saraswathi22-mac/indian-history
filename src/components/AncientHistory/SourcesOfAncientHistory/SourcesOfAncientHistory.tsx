@@ -1,17 +1,60 @@
-import React from "react";
+import React, { useState } from "react";
 import Container from "../../../common/Container/Container";
 import { Heading } from "../../../common/Headings/Headings";
 import "./SourcesOfAncientHistory.css";
 
+const data = [
+  {
+    id : '1',
+   tabTitle: "Scriptures",
+   tabContent: 'Tab Content 1'
+  },
+  {
+    id : '2',
+   tabTitle: "Historical Texts",
+   tabContent: 'Tab Content 2'
+  },
+  {
+    id : '3',
+   tabTitle: "Details of foreigners",
+   tabContent: 'Tab Content 3'
+  },
+  {
+    id : '4',
+   tabTitle: "Archaeological evidence",
+   tabContent: 'Tab Content 3'
+  }
+]
+
 const SourcesOfAncientHistory = () => {
+
+  const [visibleTab, setVisibleTab] = useState(data[0].id);
+
+  const listTitles = data.map((item) => (
+    <li
+      onClick={() => setVisibleTab(item.id)}
+      className={
+        visibleTab === item.id ? "tab-title tab-title--active" : "tab-title"
+      }
+    >
+      {item.tabTitle}
+    </li>
+  ));
+
+  const listContent = data.map((item) => (
+    <p style={visibleTab === item.id ? {} : { display: "none" }}>
+      {item.tabContent}
+    </p>
+  ));
+
   return (
     <Container>
       <Heading heading="Sources of Ancient India" />
+      <div className="tabs">
+      <ul className="tabs-titles">{listTitles}</ul>
+      <div className="tab-content">{listContent}</div>
+    </div>
       <div className="ancient-content">
-        <h2>1. Scriptures</h2>
-        <h2>2. Historical Texts</h2>
-        <h2>3. Details of foreigners</h2>
-        <h2>4. Archaeological evidence</h2>
         <h1>1.</h1>
         <h4>
           Veda: is the oldest scripture of India. Its compiler Maharshi Krishna
