@@ -5,7 +5,7 @@ import { MainHeading } from "../../common/Headings/Headings";
 
 const MedievalHistory = () => {
   return (
-    <div className="ancient-history">
+    <div className="history">
       <MainHeading mainHeading="Medieval History" />
       <SourcesOfMedievalHistory />
       <Button locate="/medieval_history/stone_age" title="Stone Age" />

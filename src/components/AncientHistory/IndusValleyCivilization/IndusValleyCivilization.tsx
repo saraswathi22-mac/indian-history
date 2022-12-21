@@ -7,6 +7,9 @@ const IndusValleyCivilization = () => {
   return (
     <Container>
       <Heading heading="Indus Valley Civilization" />
+      <div>
+        This is also called Harappan Civilization
+      </div>
     </Container>
   );
 };
