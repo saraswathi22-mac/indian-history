@@ -1,6 +1,8 @@
 import React from "react";
 import { Button } from "../../common/Button/Button";
 import { MainHeading } from "../../common/Headings/Headings";
+import ImageSlider from "../../common/ImageSlider/ImageSlider";
+import { SliderData } from "../../common/ImageSlider/SliderData";
 
 const AncientHistory = () => {
   return (
@@ -15,6 +17,7 @@ const AncientHistory = () => {
         locate="/ancient_history/indus_valley_civilization"
         title="Indus Valley Civilization"
       />
+      <ImageSlider slides={SliderData} />
     </div>
   );
 };
