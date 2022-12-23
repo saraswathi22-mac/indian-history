@@ -6,6 +6,7 @@ import SourcesOfAncientHistory from "./components/AncientHistory/SourcesOfAncien
 import StoneAge from "./components/AncientHistory/StoneAge/StoneAge";
 import Home from "./components/Home/Home";
 import MedievalHistory from "./components/MedievalHistory/MedievalHistory";
+import MughalEmpire from "./components/MedievalHistory/MughalEmpire/MughalEmpire";
 import SourcesOfMedievalHistory from "./components/MedievalHistory/SourcesOfMedievalHistory/SourcesOfMedievalHistory";
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Route path="/medieval_history" > 
         <Route index element={<MedievalHistory />}/>
         <Route path="sources_medieval_history" element={<SourcesOfMedievalHistory />}/>
+        <Route path="mughal_empire" element={<MughalEmpire />}/>
       </Route>
     </Routes>
   );
