@@ -1,0 +1,15 @@
+.modal-btn {
+    background-color: black;
+    padding: 0.75em;
+    cursor: pointer;
+    border-radius: 25%;
+    color: white;
+}
+
+.modal-popup {
+    width: 300px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  background-color: black;
+}
